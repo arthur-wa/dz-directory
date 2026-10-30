@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="دليل شامل للتجار والأعمال في الجزائر: هاتف، تقييم، عنوان، خريطة">
+<title>دليل التجار الجزائري</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<a class="skip" href="#results">تخطَّ إلى النتائج</a>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="wordmark">دليل التجار <span class="dz">DZ</span></div>
+    <div class="top-actions">
+      <button class="sq-btn" id="favBtn" aria-pressed="false" title="عرض المفضلة" aria-label="عرض المفضلة">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9A5.2 5.2 0 0 1 12 6.4a5.2 5.2 0 0 1 9.3 5.1c-1.8 4.4-9.3 9-9.3 9Z"/></svg>
+      </button>
+      <button class="sq-btn" id="themeBtn" title="الوضع الليلي" aria-label="تبديل المظهر">
+        <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.5 1.5M17.2 17.2l1.5 1.5M18.7 5.3l-1.5 1.5M6.8 17.2l-1.5 1.5"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 1 1 9.5 3.5a7 7 0 0 0 11 11Z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="board">
+  <div class="wrap">
+    <h1>لوحة العناوين: <span class="amber" id="totalN">…</span> عنوان في <span class="amber" id="totalW">…</span> ولاية</h1>
+    <div class="board-row" id="kpis"></div>
+  </div>
+</div>
+
+<div class="cats-wrap">
+  <div class="wrap">
+    <div class="cats-head">
+      <h2>تصفّح التصنيفات</h2>
+      <button class="cats-toggle" id="catsToggle" type="button" aria-expanded="false" hidden></button>
+    </div>
+    <div class="cats" id="catsDash" aria-label="التصنيفات"></div>
+  </div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap">
+    <div class="filters">
+      <div class="search" id="searchBox">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="ابحث بالاسم، الهاتف، المدينة، التصنيف…" autocomplete="off"
+          role="combobox" aria-expanded="false" aria-controls="searchSug" aria-describedby="searchHint">
+        <button class="search-clear" id="qClear" type="button" aria-label="مسح البحث" hidden>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" width="12" height="12" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+        </button>
+        <kbd class="search-kbd" id="searchKbd" aria-hidden="true">/</kbd>
+        <span id="searchHint" class="visually-hidden">اضغط على السلاش لتركيز البحث، والأسهم للتنقل بين الاقتراحات</span>
+        <div class="search-sug" id="searchSug" role="listbox" aria-label="اقتراحات البحث" hidden></div>
+      </div>
+      <select id="wilaya" aria-label="الولاية"><option value="">كل الولايات</option></select>
+      <select id="category" aria-label="التصنيف"><option value="">كل التصنيفات</option></select>
+      <select id="rating" aria-label="التقييم">
+        <option value="">كل التقييمات</option>
+        <option value="5">5 نجوم</option>
+        <option value="4.5">4.5 نجوم وأكثر</option>
+        <option value="4">4 نجوم وأكثر</option>
+        <option value="3">3 نجوم وأكثر</option>
+        <option value="2">نجمان وأكثر</option>
+        <option value="none">بدون تقييم</option>
+      </select>
+      <select id="sort" aria-label="الترتيب">
+        <option value="name">الاسم</option>
+        <option value="rating">الأعلى تقييماً</option>
+        <option value="reviews">الأكثر مراجعات</option>
+        <option value="wilaya">الولاية</option>
+      </select>
+    </div>
+    <div class="chip-row">
+      <span class="lbl">سريع:</span>
+      <div class="chip-group" id="quickRating" role="group" aria-label="تصفية سريعة بالتقييم">
+        <button class="cell" data-r="" aria-pressed="true">الكل</button>
+        <button class="cell" data-r="4" aria-pressed="false">4 نجوم وأكثر</button>
+        <button class="cell" data-r="4.5" aria-pressed="false">4.5 وأكثر</button>
+        <button class="cell live" data-r="5" aria-pressed="false">5 نجوم</button>
+      </div>
+      <button class="cell" id="quickOpen" data-open="1" aria-pressed="false">مفتوح الآن</button>
+      <button class="cell" id="withPhoneChip" aria-pressed="false">مع هاتف</button>
+      <button class="cell" id="favChip" aria-pressed="false">المفضلة</button>
+    </div>
+  </div>
+</div>
+
+<main id="results" class="wrap">
+  <div class="results-bar">
+    <div id="count"></div>
+    <div class="spacer"></div>
+    <button class="btn" id="export">تصدير CSV</button>
+    <button class="btn" id="resetBtn">إعادة تعيين</button>
+  </div>
+  <div class="grid" id="grid"></div>
+  <div class="pager" id="pager"></div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>التقييمات وأوقات العمل من Google.</span>
+  </div>
+</footer>
+
+<div class="overlay" id="overlay">
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle"></div>
+</div>
+
+<div id="toast" role="status"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

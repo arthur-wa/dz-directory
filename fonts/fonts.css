@@ -1,0 +1,88 @@
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(Cairo-400-arabic.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(Cairo-400-latin.woff2) format('woff2');
+}
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(Cairo-500-arabic.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(Cairo-500-latin.woff2) format('woff2');
+}
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(Cairo-700-arabic.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(Cairo-700-latin.woff2) format('woff2');
+}
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(Cairo-800-arabic.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(Cairo-800-latin.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'Chivo Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(ChivoMono-400-latin.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'Chivo Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(ChivoMono-500-latin.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'Chivo Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(ChivoMono-800-latin.woff2) format('woff2');
+}

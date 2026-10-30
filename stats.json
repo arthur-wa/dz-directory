@@ -1,0 +1,843 @@
+{
+  "generated_at": "2026-10-29T23:04:35.194Z",
+  "total": 55384,
+  "with_phone": 54548,
+  "with_rating": 43219,
+  "avg_rating": 4.27,
+  "by_wilaya": [
+    [
+      "Alger",
+      20949
+    ],
+    [
+      "Oran",
+      5787
+    ],
+    [
+      "Blida",
+      3282
+    ],
+    [
+      "Tizi Ouzou",
+      3064
+    ],
+    [
+      "Bejaia",
+      3012
+    ],
+    [
+      "Sétif",
+      2980
+    ],
+    [
+      "Constantine",
+      2312
+    ],
+    [
+      "Boumerdes",
+      2270
+    ],
+    [
+      "Annaba",
+      1383
+    ],
+    [
+      "Tipaza",
+      1364
+    ],
+    [
+      "Mostaganem",
+      1272
+    ],
+    [
+      "Bordj Bou Arreridj",
+      1011
+    ],
+    [
+      "Jijel",
+      844
+    ],
+    [
+      "Tlemcen",
+      784
+    ],
+    [
+      "Bouira",
+      583
+    ],
+    [
+      "Relizane",
+      546
+    ],
+    [
+      "Batna",
+      427
+    ],
+    [
+      "Chlef",
+      401
+    ],
+    [
+      "Aïn Defla",
+      378
+    ],
+    [
+      "Mila",
+      375
+    ],
+    [
+      "Skikda",
+      292
+    ],
+    [
+      "Medea",
+      283
+    ],
+    [
+      "M'Sila",
+      276
+    ],
+    [
+      "Mascara",
+      265
+    ],
+    [
+      "Oum El Bouaghi",
+      265
+    ],
+    [
+      "Tiaret",
+      172
+    ],
+    [
+      "Guelma",
+      153
+    ],
+    [
+      "Sidi Bel Abbes",
+      152
+    ],
+    [
+      "Aïn Temouchent",
+      147
+    ],
+    [
+      "El Tarf",
+      114
+    ],
+    [
+      "Tissemsilt",
+      40
+    ],
+    [
+      "Biskra",
+      37
+    ],
+    [
+      "Saïda",
+      35
+    ],
+    [
+      "Tamanrasset",
+      35
+    ],
+    [
+      "Souk Ahras",
+      22
+    ],
+    [
+      "Ouargla",
+      19
+    ],
+    [
+      "El Oued",
+      13
+    ],
+    [
+      "Djelfa",
+      12
+    ],
+    [
+      "Ghardaia",
+      7
+    ],
+    [
+      "Laghouat",
+      6
+    ],
+    [
+      "Adrar",
+      5
+    ],
+    [
+      "Khenchela",
+      3
+    ],
+    [
+      "Tébessa",
+      3
+    ],
+    [
+      "Béchar",
+      2
+    ],
+    [
+      "Tindouf",
+      2
+    ]
+  ],
+  "by_category": [
+    [
+      "Pièces & Accessoires auto",
+      3723
+    ],
+    [
+      "Pharmacie",
+      3017
+    ],
+    [
+      "Vêtements",
+      2105
+    ],
+    [
+      "Établissement scolaire",
+      1952
+    ],
+    [
+      "Restaurant",
+      1915
+    ],
+    [
+      "Fast-food & Pizzeria",
+      1893
+    ],
+    [
+      "Dentiste",
+      1650
+    ],
+    [
+      "Meubles & Décoration",
+      1601
+    ],
+    [
+      "Avocat",
+      1526
+    ],
+    [
+      "Gynécologue-obstétricien",
+      1478
+    ],
+    [
+      "Cosmétiques & Parfumerie",
+      1432
+    ],
+    [
+      "Informatique & Bureautique",
+      1314
+    ],
+    [
+      "Location de voiture",
+      1247
+    ],
+    [
+      "Laboratoire d'analyses",
+      1195
+    ],
+    [
+      "Bijouterie & Horlogerie",
+      1170
+    ],
+    [
+      "Hôtel",
+      1017
+    ],
+    [
+      "Matériaux de construction & Quincaillerie",
+      969
+    ],
+    [
+      "Garage & Mécanique",
+      964
+    ],
+    [
+      "Notaire",
+      910
+    ],
+    [
+      "Pâtisserie & Confiserie",
+      901
+    ],
+    [
+      "Entreprises & Sièges sociaux",
+      856
+    ],
+    [
+      "Clinique & Hôpital",
+      852
+    ],
+    [
+      "Mosquée",
+      728
+    ],
+    [
+      "Crèche & Maternelle",
+      711
+    ],
+    [
+      "Ophtalmologue",
+      707
+    ],
+    [
+      "Cardiologue",
+      622
+    ],
+    [
+      "Institut de beauté & Onglerie",
+      613
+    ],
+    [
+      "Électroménager & Électronique",
+      604
+    ],
+    [
+      "Téléphonie & Accessoires",
+      602
+    ],
+    [
+      "Salle des fêtes",
+      587
+    ],
+    [
+      "Salle de sport & Fitness",
+      577
+    ],
+    [
+      "Pédiatre",
+      519
+    ],
+    [
+      "Barbier",
+      489
+    ],
+    [
+      "Vétérinaire",
+      447
+    ],
+    [
+      "Épicerie & Alimentation générale",
+      429
+    ],
+    [
+      "Assurance",
+      425
+    ],
+    [
+      "Salon de coiffure",
+      419
+    ],
+    [
+      "Oto-rhino-laryngologiste (ORL)",
+      398
+    ],
+    [
+      "Agence de voyage",
+      385
+    ],
+    [
+      "Diabétologue & Endocrinologue",
+      373
+    ],
+    [
+      "Imagerie médicale",
+      371
+    ],
+    [
+      "Lavage automobile",
+      361
+    ],
+    [
+      "Banque",
+      346
+    ],
+    [
+      "Médecin généraliste",
+      345
+    ],
+    [
+      "Gastro-entérologue",
+      314
+    ],
+    [
+      "Auto-école",
+      309
+    ],
+    [
+      "Université & Enseignement supérieur",
+      305
+    ],
+    [
+      "Optique & Lunetterie",
+      298
+    ],
+    [
+      "Concessionnaire automobile",
+      297
+    ],
+    [
+      "École de langues",
+      280
+    ],
+    [
+      "Ministère & Organisme public",
+      272
+    ],
+    [
+      "Pneumologue",
+      270
+    ],
+    [
+      "Matériel & Équipement médical",
+      267
+    ],
+    [
+      "Contrôle technique",
+      264
+    ],
+    [
+      "Aluminium, PVC & Vitrerie",
+      242
+    ],
+    [
+      "Dermatologue",
+      224
+    ],
+    [
+      "Café & Salon de thé",
+      220
+    ],
+    [
+      "Centre de formation professionnelle",
+      219
+    ],
+    [
+      "Bibliothèque",
+      210
+    ],
+    [
+      "Pneus, Jantes & Vulcanisation",
+      210
+    ],
+    [
+      "Bureau de poste",
+      204
+    ],
+    [
+      "Orthopédiste",
+      184
+    ],
+    [
+      "Carrosserie & Peinture auto",
+      180
+    ],
+    [
+      "Jouets & Puériculture",
+      178
+    ],
+    [
+      "Maison d'hôtes & Auberge",
+      175
+    ],
+    [
+      "Paramédical & Rééducation",
+      171
+    ],
+    [
+      "Électricité & Climatisation auto",
+      158
+    ],
+    [
+      "Urologue",
+      154
+    ],
+    [
+      "Neurologue",
+      152
+    ],
+    [
+      "Spa & Massage",
+      152
+    ],
+    [
+      "Fleuriste & Cadeaux",
+      151
+    ],
+    [
+      "Chaussures & Maroquinerie",
+      150
+    ],
+    [
+      "Plomberie",
+      149
+    ],
+    [
+      "Articles de sport & Plein air",
+      149
+    ],
+    [
+      "Boulangerie",
+      149
+    ],
+    [
+      "Jardinage & Pépinière",
+      145
+    ],
+    [
+      "Réparation & SAV",
+      145
+    ],
+    [
+      "APC, Daïra & Wilaya",
+      143
+    ],
+    [
+      "Moto & Scooter",
+      141
+    ],
+    [
+      "Résidence & Location meublée",
+      129
+    ],
+    [
+      "Boucherie",
+      122
+    ],
+    [
+      "Psychiatre",
+      115
+    ],
+    [
+      "Station-service",
+      113
+    ],
+    [
+      "Ambassade & Consulat",
+      102
+    ],
+    [
+      "Animalerie",
+      102
+    ],
+    [
+      "Promoteur immobilier",
+      98
+    ],
+    [
+      "Expert-comptable & Cabinet comptable",
+      89
+    ],
+    [
+      "Studio d'enregistrement & Production",
+      87
+    ],
+    [
+      "Poissonnerie",
+      85
+    ],
+    [
+      "Agence immobilière",
+      78
+    ],
+    [
+      "Supermarché & Centre commercial",
+      76
+    ],
+    [
+      "Aéroport & Compagnie aérienne",
+      74
+    ],
+    [
+      "Rhumatologue",
+      74
+    ],
+    [
+      "Piscine",
+      73
+    ],
+    [
+      "Radiologue",
+      73
+    ],
+    [
+      "Police & Gendarmerie",
+      73
+    ],
+    [
+      "Chirurgien général",
+      71
+    ],
+    [
+      "Plage",
+      70
+    ],
+    [
+      "Association & Service communautaire",
+      68
+    ],
+    [
+      "Équipement professionnel & Industriel",
+      67
+    ],
+    [
+      "Bowling, Billard & Jeux",
+      67
+    ],
+    [
+      "Photographe & Vidéaste",
+      66
+    ],
+    [
+      "Librairie & Papeterie",
+      64
+    ],
+    [
+      "Médecine interne",
+      62
+    ],
+    [
+      "Hammam",
+      58
+    ],
+    [
+      "Stade & Complexe sportif",
+      58
+    ],
+    [
+      "Tissus & Mercerie",
+      55
+    ],
+    [
+      "Loisirs de plein air & Aventure",
+      52
+    ],
+    [
+      "Médecine alternative & Hijama",
+      49
+    ],
+    [
+      "Théâtre, Galerie & Centre culturel",
+      48
+    ],
+    [
+      "Club & Fédération sportive",
+      48
+    ],
+    [
+      "Glacier & Crêperie",
+      46
+    ],
+    [
+      "Autre spécialité médicale",
+      43
+    ],
+    [
+      "Psychologue",
+      40
+    ],
+    [
+      "Parc & Jardin",
+      38
+    ],
+    [
+      "Construction & Entretien de piscine",
+      37
+    ],
+    [
+      "Arts martiaux & Boxe",
+      36
+    ],
+    [
+      "Musée & Site historique",
+      36
+    ],
+    [
+      "Construction & Bâtiment",
+      35
+    ],
+    [
+      "Allergologue",
+      33
+    ],
+    [
+      "Soutien scolaire & Cours particuliers",
+      31
+    ],
+    [
+      "Climatisation & Chauffage",
+      31
+    ],
+    [
+      "Instruments de musique",
+      28
+    ],
+    [
+      "Tribunal & Palais de justice",
+      28
+    ],
+    [
+      "École de musique & d'arts",
+      25
+    ],
+    [
+      "Événementiel & Organisation",
+      25
+    ],
+    [
+      "Menuiserie & Ébénisterie",
+      25
+    ],
+    [
+      "Parc d'attractions & Aire de jeux",
+      24
+    ],
+    [
+      "Fromagerie & Crémerie",
+      24
+    ],
+    [
+      "Camions & Engins",
+      22
+    ],
+    [
+      "Imprimerie & Sérigraphie",
+      22
+    ],
+    [
+      "Médias & Presse",
+      21
+    ],
+    [
+      "Protection civile",
+      20
+    ],
+    [
+      "Huissier de justice",
+      19
+    ],
+    [
+      "Cinéma",
+      18
+    ],
+    [
+      "Casse & Fourrière",
+      18
+    ],
+    [
+      "Lac, Source & Cascade",
+      17
+    ],
+    [
+      "Sécurité, Alarmes & Vidéosurveillance",
+      16
+    ],
+    [
+      "Train, Tram & Métro",
+      16
+    ],
+    [
+      "Traiteur",
+      15
+    ],
+    [
+      "Nettoyage, Pressing & Laverie",
+      15
+    ],
+    [
+      "Taxi & VTC",
+      14
+    ],
+    [
+      "Transport de marchandises & Logistique",
+      13
+    ],
+    [
+      "Architecte & Bureau d'études",
+      12
+    ],
+    [
+      "Ferme & Agrotourisme",
+      12
+    ],
+    [
+      "Agence de publicité & Marketing",
+      12
+    ],
+    [
+      "Port, Marina & Ferry",
+      10
+    ],
+    [
+      "Distributeur automatique (ATM)",
+      9
+    ],
+    [
+      "Camping & Bivouac",
+      7
+    ],
+    [
+      "Parking",
+      6
+    ],
+    [
+      "Services financiers & Conseil",
+      5
+    ],
+    [
+      "Zoo & Aquarium",
+      5
+    ],
+    [
+      "Point de vue & Téléphérique",
+      5
+    ],
+    [
+      "Ferronnerie & Soudure",
+      5
+    ],
+    [
+      "Peinture & Décoration intérieure",
+      4
+    ],
+    [
+      "Cimetière",
+      4
+    ],
+    [
+      "Serrurerie",
+      4
+    ],
+    [
+      "Traduction & Interprétariat",
+      3
+    ],
+    [
+      "Bus & Gare routière",
+      2
+    ],
+    [
+      "Électricité",
+      2
+    ],
+    [
+      "Ambulance & Transport sanitaire",
+      2
+    ],
+    [
+      "Déménagement & Manutention",
+      1
+    ],
+    [
+      "Recrutement & Ressources humaines",
+      1
+    ]
+  ]
+}
